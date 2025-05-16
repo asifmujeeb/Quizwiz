@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizWiz</title>
+    <link rel="stylesheet" href="site.css">
+</head>
+
+<body>
+    <header>
+        <div class="header_img">
+            <img class="logo_img" src="images/QuizWiz_logo.png" alt="logo of QuizWiz">
+        </div>
+        <div class="header_content">
+            <h1><a href="index.html">QuizWiz</a></h1>
+        </div>
+    </header>
+
+    <nav>
+        <div class="nav-content">
+            <a href="index.html"><img class="nav-images" src="images/home.jpg" alt="image for the home nav link"></a>
+            <div class="nav-links">
+                <a href="index.html">home</a>
+            </div>
+        </div>
+        <div class="nav-content">
+            <a href="about.html"><img class="nav-images" src="images/about.jpg" alt="image for the about nav link"></a>
+            <div class="nav-links">
+                <a href="about.html">about</a>
+            </div>
+        </div>
+        <div class="nav-content">
+            <a href="test.html"><img class="nav-images" src="images/test.png" alt="image for the about nav link"></a>
+            <div class="nav-links">
+                <a href="test.html">test</a>
+            </div>
+        </div>
+
+    </nav>
+
+    <main>
+        <div id="maincontainer">
+            <div class="main-section2">
+                <h1>Why JavaScript Quiz?</h1>
+                <p class="mainsection1-p">JavaScript is a versatile and widely-used programming language, powering a
+                    significant portion of the web. Whether you're interested in front-end development, back-end
+                    development, or full-stack development, a strong foundation in JavaScript is essential. Our quiz
+                    provides an engaging and effective way to deepen your understanding of JavaScript concepts, ensuring
+                    that you're equipped with the skills needed to excel in web development.
+                </p>
+                <a href="test.html"><button class="mainsection1-button">Take test</button></a>
+            </div>
+            <div class="main-section2">
+                <h1>Let's see a work using JavaScript!!!</h1>
+                <p class="mainsection1-p">This is a small example of creating a live clock and a stop watch. if you are
+                    clicking in the start button below it will start to record the timer, if you click on the stop
+                    button it will stop suddenly and altast if you click on the reset button it will go back to the
+                    "0"th state. So Let's play with JavaScript. I promise you it will me more fun!!!
+                </p>
+                <div class="clock">
+                    <fieldset>
+                        <legend>Clock</legend>
+                        <span id="hours"></span>:
+                        <span id="minutes"></span>:
+                        <span id="seconds"></span>
+                        <span id="ampm"></span>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Stop Watch</legend>
+                        <a class="stopwatch-text" href="#" id="start">Start</a>
+                        <a class="stopwatch-text" href="#" id="stop">Stop</a>
+                        <a class="stopwatch-text" href="#" id="reset">Reset</a>
+                        <span id="s_minutes">00</span>:
+                        <span id="s_seconds">00</span>:
+                        <span id="s_ms">000</span>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-image">
+                <img class="foot-logo" src="images/footer_logos.png" alt="logo's of social media plateform">
+            </div>
+            <div class="copyright">
+                <p>&copy;QuizWiz.com/2024</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js files/clock.js"></script>
+</body>
+
+</html>
